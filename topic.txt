@@ -1,6 +1,6 @@
 --- primitive data type in TS include: 
--number
--string
+-number     =
+-string     =
 -boolean    = কোন variable কে  true বা false
 -null       = যার value নিজে থেকে খালি রাখা হয়
 -undefined  = যার value নেই  বা defined করা নেই
@@ -8,19 +8,21 @@
 --- non primitive data type id TS include:
 -object   = const parson = {name:string}  --this is name type
 -array    = cost parson: string[] = ['Egg', 'Milk']
--tuple
--enum
--any
--void
--never
--unknown
+-tuple    = নির্দিষ্ট সংখ্যা ও টাইপের মান একসাথে রাখে। let user: [string, number] = ['Rakib',20]
+-enum     = নির্দিষ্ট কিছু মানের নাম দেওয়া লিস্ট।
+-any      = যেকোনো টাইপের মান রাখতে পারে (টাইপ চেক হয় না)।
+-void     = কোনো রিটার্ন ভ্যালু নেই এমন ফাংশনে ব্যবহৃত হয়।
+-never    = যে ফাংশন কখনোই রিটার্ন করে না (error বা infinite loop)।
+-unknown  = any-এর মতো, কিন্তু টাইপ চেক ছাড়া ব্যবহার করা যায় না।
 
--literal
--optional
--function
--union
--intersection
--alias          = type Parson = {}
--generic
--rest & spread
--ternary
+-literal        =
+-optional       =
+-function       =
+-interface      = কোনো object, class, বা function এর মধ্যে কী কী property ও method থাকবে, এবং সেগুলোর type কী হবে।
+-extends        = একটি class বা interface অন্যটির বৈশিষ্ট্য গ্রহণ করে”
+-union          = একাধিক টাইপের মধ্যে যেকোনো একটি হতে পারে। let data: string | number | boolean
+-intersection   = type alias + type alias = intersection  (&)
+-alias          = টাইপের জন্য কাস্টম নাম তৈরি করা হয়। type Parson = {}
+-generic        = পুনর্ব্যবহারযোগ্য টাইপ তৈরি করতে ব্যবহৃত হয়। <Generic>
+-rest & spread  =
+-ternary        =
