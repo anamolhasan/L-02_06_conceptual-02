@@ -6,8 +6,8 @@
 -undefined  = যার value নেই  বা defined করা নেই
 
 --- non primitive data type id TS include:
--object
--array
+-object   = const parson = {name:string}  --this is name type
+-array    = cost parson: string[] = ['Egg', 'Milk']
 -tuple
 -enum
 -any
@@ -20,7 +20,7 @@
 -function
 -union
 -intersection
--alias
+-alias          = type Parson = {}
 -generic
 -rest & spread
 -ternary
