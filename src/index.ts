@@ -36,3 +36,5 @@ function getFirstIndex <T>(arr:T[]):T | undefined {
 let numb = getFirstIndex<number>([30,33])
 let names = getFirstIndex<string>(['Rifat', 'Shuvo'])
 console.log(numb, names)
+
+

@@ -15,12 +15,12 @@
 -never    = যে ফাংশন কখনোই রিটার্ন করে না (error বা infinite loop)।
 -unknown  = any-এর মতো, কিন্তু টাইপ চেক ছাড়া ব্যবহার করা যায় না।
 
--literal        =
 -optional       =
 -function       =
 -interface      = কোনো object, class, বা function এর মধ্যে কী কী property ও method থাকবে, এবং সেগুলোর type কী হবে।
 -extends        = একটি class বা interface অন্যটির বৈশিষ্ট্য গ্রহণ করে”
 -union          = একাধিক টাইপের মধ্যে যেকোনো একটি হতে পারে। let data: string | number | boolean
+-literal        =
 -intersection   = type alias + type alias = intersection  (&)
 -alias          = টাইপের জন্য কাস্টম নাম তৈরি করা হয়। type Parson = {}
 -generic        = পুনর্ব্যবহারযোগ্য টাইপ তৈরি করতে ব্যবহৃত হয়। <Generic>
