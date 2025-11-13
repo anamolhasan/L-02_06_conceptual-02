@@ -1,0 +1,26 @@
+--- primitive data type in TS include: 
+-number
+-string
+-boolean    = কোন variable কে  true বা false
+-null       = যার value নিজে থেকে খালি রাখা হয়
+-undefined  = যার value নেই  বা defined করা নেই
+
+--- non primitive data type id TS include:
+-object
+-array
+-tuple
+-enum
+-any
+-void
+-never
+-unknown
+
+-literal
+-optional
+-function
+-union
+-intersection
+-alias
+-generic
+-rest & spread
+-ternary
