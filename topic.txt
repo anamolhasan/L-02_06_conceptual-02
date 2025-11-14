@@ -26,3 +26,6 @@
 -generic        = পুনর্ব্যবহারযোগ্য টাইপ তৈরি করতে ব্যবহৃত হয়। <Generic>
 -rest & spread  =
 -ternary        =
+-nullish coalescing = 
+-optional chaining  = 
+-nullable           = 
