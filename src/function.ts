@@ -12,9 +12,10 @@ function greet(name:string):string{
 // console.log('Anam',253)
 
 
-function UC(arr:string[]):string[]{
-    let toUpper = arr.map((item) => item.toUpperCase())
-    return toUpper
+function UC(arr:string[], minLength:number):string[]{
+    // let toUpper = arr.map((item) => item.toUpperCase())
+    // return toUpper
+    return arr.filter((word) => word.length >= minLength)
 }
 const cities = ['dhaka', 'rajshahi']
-console.log(UC(cities))
+console.log(UC(cities,3))
